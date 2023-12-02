@@ -1,0 +1,8 @@
+C:\Users\kelvi\OneDrive\Escritorio\Seminario2\Seminario2\Seminario2\bin\Debug\Seminario2.exe.config
+C:\Users\kelvi\OneDrive\Escritorio\Seminario2\Seminario2\Seminario2\bin\Debug\Seminario2.exe
+C:\Users\kelvi\OneDrive\Escritorio\Seminario2\Seminario2\Seminario2\bin\Debug\Seminario2.pdb
+C:\Users\kelvi\OneDrive\Escritorio\Seminario2\Seminario2\Seminario2\obj\Debug\Seminario2.csproj.AssemblyReference.cache
+C:\Users\kelvi\OneDrive\Escritorio\Seminario2\Seminario2\Seminario2\obj\Debug\Seminario2.csproj.SuggestedBindingRedirects.cache
+C:\Users\kelvi\OneDrive\Escritorio\Seminario2\Seminario2\Seminario2\obj\Debug\Seminario2.csproj.CoreCompileInputs.cache
+C:\Users\kelvi\OneDrive\Escritorio\Seminario2\Seminario2\Seminario2\obj\Debug\Seminario2.exe
+C:\Users\kelvi\OneDrive\Escritorio\Seminario2\Seminario2\Seminario2\obj\Debug\Seminario2.pdb
