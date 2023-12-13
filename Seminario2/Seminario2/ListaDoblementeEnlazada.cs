@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Seminario2
 {
+    
 
     public class ListaDoblementeEnlazada
     {
         private Nodo cabeza;
 
-
-
+        //agrega el nodo al ultimo indece de la lista
         public void AgregarAlFinal()
         {
             int valor = 0;
@@ -38,6 +38,7 @@ namespace Seminario2
                 nuevoNodo.Anterior = actual;
             }
         }
+        //agrega el nodo al principio de la lista 
 
         public void AgregarAlPrincipio()
 
@@ -56,6 +57,8 @@ namespace Seminario2
 
             cabeza = nuevoNodo;
         }
+        
+        //Inserta el nodo en una posicion en especifico indicado el indice y el valor que va a insertar
         public void InsertarEnPosicion(int valor, int posicion)
         {
             if (posicion < 0)
@@ -92,6 +95,7 @@ namespace Seminario2
                 nuevoNodo.Siguiente.Anterior = nuevoNodo;
             }
         }
+        //Buscar un nodo en especifico en la lista 
         public Nodo Buscar(int valor)
         {
             Nodo actual = cabeza;
@@ -108,6 +112,7 @@ namespace Seminario2
 
             return null; // El valor no se encontró en la lista
         }
+        //Organiza lista demadera asendente
         public void RecorrerHaciaAdelante()
         {
             Nodo actual = cabeza;
@@ -118,6 +123,7 @@ namespace Seminario2
             }
             Console.WriteLine();
         }
+        //Organiza lista demadera decendente 
         public void RecorrerHaciaAtras()
         {
             Nodo actual = cabeza;
@@ -133,6 +139,7 @@ namespace Seminario2
             }
             Console.WriteLine();
         }
+        // Elimina el primer nodo de la lista 
         public void EliminarAlPrincipio()
         {
             if (cabeza != null)
@@ -147,6 +154,7 @@ namespace Seminario2
                 cabeza = segundoNodo;
             }
         }
+        //Eliminar el ultimo nodo de la lista
         public void EliminarAlFinal()
         {
           
@@ -166,6 +174,7 @@ namespace Seminario2
 
             actual.Anterior.Siguiente = null;
         }
+        //metodo parar eliminar en una posicion en especifica
         public void EliminarEnPosicion(int posicion)
         {
 
@@ -195,6 +204,7 @@ namespace Seminario2
                 actual.Siguiente.Anterior = actual.Anterior;
             }
         }
+        //hace un recorrido por la lista contando los nodo que hay 
         public int ContarElementos()
         {
             Nodo actual = cabeza;
@@ -208,6 +218,7 @@ namespace Seminario2
 
             return contador;
         }
+        // cambia la posicion de los valores los ultimo los mueve hacia delante
         public void InvertirLista()
         {
             Nodo actual = cabeza;
